@@ -1,0 +1,16 @@
+{
+  "name": "maximn/horseracing",
+  "description": "maximn horseracing",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "Maximn\\Horseracing\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.6",
+    "nette/database": "~2.4",
+    "katzgrau/klogger": "~1.2.1",
+    "kint-php/kint": "~3.3"
+  }
+}
